@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './Navbar';
 import Contact from './Contact';
-import Projects from './Projects';
-import App from './App';
-import First from './Navbar';
-import About from './About';
 import Portfolio from './Portfolio';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
