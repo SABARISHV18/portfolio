@@ -32,7 +32,7 @@ const Home = () => {
                 </a>
               </div>
               <div className='m-5 m-sm-0'>
-                <a href="Sabarish Resume.pdf" download="resume.pdf">
+                <a href="https://sabarishv.vercel.app/Sabarish Resume.pdf" download="resume.pdf">
                   <button className='downloadcv'>downloadcv</button>
                 </a>
                 <a href='#projects'>
