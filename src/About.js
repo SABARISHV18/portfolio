@@ -7,6 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/js/dist/dropdown'
 import 'aos/dist/aos.css'
 import { FiBook,FiShield,FiZap } from "react-icons/fi";
+import resume from './assets/Sabarish Resume.pdf';
+import cognisance from './assets/cognisance.pdf';
+import renaissance from './assets/renaissance.pdf';
+import codeup from './assets/codeup.pdf';
 
 const About = () => {
   useEffect(() => {
@@ -14,15 +18,12 @@ const About = () => {
   }, [])
   return (
     <div className='about' id='section2'>
-
       <div className='container'>
-
         <div className='row'>
           <h2 className='text-center'>About <span style={{ color: "#f64c08" }}>me</span></h2>
           <div className='col-12 col-md-6 col-lg-6 aboutImagePart1 mt-4 d-block' data-aos='flip-right'>
             <img src={img1} alt='sabari' style={{ width: "300px", height: "300px", objectFit: "contain", borderRadius: "0%"}} />
-            <a href='Sabarish Resume.pdf' download="resume.pdf" className='text-decoration-none'><button className='btn download1 mt-5 mb-3 d-flex align-items-center justify-content-center'>downloadcv</button></a>
-
+            <a href={resume} download="resume" className='text-decoration-none'><button className='btn download1 mt-5 mb-3 d-flex align-items-center justify-content-center'>downloadcv</button></a>
           </div>
           <div className='col-12 col-md-6 col-lg-6 aboutTextPart1' data-aos='fade-left'>
             <div>
@@ -61,9 +62,9 @@ const About = () => {
                     </div>
                     <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <ul>
-                          <li><strong>CODE CRAFT</strong> event in KEC Codeup'23<br /><h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href="codeup.pdf" target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
-                          <li><strong>DESIGN JAM</strong> event in KEC Renaissanace'23<h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href="renaissance.pdf" target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
-                          <li><strong>ARCHETYPE</strong>(Project Presentation) event in KEC Cognizance'23<h5 style={{ color: "#f64c08" }}>3RD PRIZE✨ <a href="cognisance.pdf" target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
+                          <li><strong>CODE CRAFT</strong> event in KEC Codeup'23<br /><h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href={codeup} target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
+                          <li><strong>DESIGN JAM</strong> event in KEC Renaissanace'23<h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href={renaissance} target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
+                          <li><strong>ARCHETYPE</strong>(Project Presentation) event in KEC Cognizance'23<h5 style={{ color: "#f64c08" }}>3RD PRIZE✨ <a href={cognisance} target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
                    </ul>
                     </div>
                   </div>
