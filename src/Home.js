@@ -3,22 +3,8 @@ import img1 from './assets/image1.jpg';
 import './Home.css';
 import Typewriter from 'typewriter-effect'
 import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
-import resume from './assets/Sabarish Resume.pdf';
+import DownloadResumeButton from './DownloadButton';
 const Home = () => {
-  const downloadResume = () => {
-  const downloadLink = document.createElement('a');
-  downloadLink.href = resume;
-  downloadLink.download = 'Resume.pdf';
-
-  // Append the link to the document
-  document.body.appendChild(downloadLink);
-
-  // Trigger a click on the link
-  downloadLink.click();
-
-  // Remove the link from the document
-  document.body.removeChild(downloadLink);
-};
   return (
     <div className='home1 max-vh-100 mt-1'>
       <div className=''>
@@ -46,9 +32,7 @@ const Home = () => {
                 </a>
               </div>
               <div className='m-5 m-sm-0'>
-                <a href={resume} download="resume.pdf">
-                  <button className='downloadcv' onClick={()=>{downloadResume}}>downloadcv</button>
-                </a>
+                  <DownloadResumeButton/>
                 <a href='#projects'>
                   <button className='mywork'>mywork</button>
                 </a>
