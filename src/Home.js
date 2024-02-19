@@ -47,7 +47,7 @@ const Home = () => {
               </div>
               <div className='m-5 m-sm-0'>
                 <a href={resume} download="resume.pdf">
-                  <button className='downloadcv' onClick={downloadResume}>downloadcv</button>
+                  <button className='downloadcv' onClick={()=>{downloadResume}}>downloadcv</button>
                 </a>
                 <a href='#projects'>
                   <button className='mywork'>mywork</button>
