@@ -5,6 +5,20 @@ import Typewriter from 'typewriter-effect'
 import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import resume from './assets/Sabarish Resume.pdf';
 const Home = () => {
+  const downloadResume = () => {
+  const downloadLink = document.createElement('a');
+  downloadLink.href = resume;
+  downloadLink.download = 'Resume.pdf';
+
+  // Append the link to the document
+  document.body.appendChild(downloadLink);
+
+  // Trigger a click on the link
+  downloadLink.click();
+
+  // Remove the link from the document
+  document.body.removeChild(downloadLink);
+};
   return (
     <div className='home1 max-vh-100 mt-1'>
       <div className=''>
@@ -32,8 +46,8 @@ const Home = () => {
                 </a>
               </div>
               <div className='m-5 m-sm-0'>
-                <a href={resume} download="resume">
-                  <button className='downloadcv'>downloadcv</button>
+                <a href={resume} download="resume.pdf">
+                  <button className='downloadcv' onClick={downloadResume}>downloadcv</button>
                 </a>
                 <a href='#projects'>
                   <button className='mywork'>mywork</button>

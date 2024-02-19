@@ -39,7 +39,7 @@ hr{
 {
     height: 200px;
     width: 400px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .projects{
     height: 100vh;
