@@ -3,7 +3,7 @@ import img1 from './assets/image1.jpg';
 import './Home.css';
 import Typewriter from 'typewriter-effect'
 import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
-import DownloadResumeButton from './DownloadButton';
+import resume from './assets/Resume.pdf';
 const Home = () => {
   return (
     <div className='home1 max-vh-100 mt-1'>
@@ -32,7 +32,9 @@ const Home = () => {
                 </a>
               </div>
               <div className='m-5 m-sm-0'>
-                  <DownloadResumeButton/>
+                <a href={resume} download="resume.pdf">
+                  <button className='downloadcv'>downloadcv</button>
+                </a>
                 <a href='#projects'>
                   <button className='mywork'>mywork</button>
                 </a>
