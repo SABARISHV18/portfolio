@@ -22,7 +22,7 @@ const Home = () => {
                     strings: ["WEB DEVELOPER😎 ", "ENTHUSIASTIC💪", "PRODUCTIVE👌"]
                   }} />
               </h1>
-              <p className='col-12 text-wrap'>Knock of building applications with front and back end operations</p>
+              <p className='col-12 text-wrap'>Developing applications with front-end and back-end operations</p>
               <div className='d-flex mb-1 mb-sm-1'>
                 <a href='https://github.com/SABARISHV18' target='_blank' rel='noopener noreferrer' style={{ marginRight: '20px' }}>
                   <FiGithub size={30} color='white' strokeWidth={2.0} />

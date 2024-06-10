@@ -39,8 +39,17 @@ hr{
 {
     height: 200px;
     width: 400px;
-    object-fit: contain;
+    object-fit: cover;
 }
+@media (max-width: 500px) {
+  
+    .img-top
+    {
+        height: 200px;
+        width: 250px;
+        object-fit: cover;
+    }
+  }
 .projects{
     height: 100vh;
     overflow-y: auto;
