@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import img1 from './assets/image1.jpg';
 import './Home.css';
-import Typewriter from 'typewriter-effect'
+import Typewriter from 'typewriter-effect';
 import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import resume from './assets/Resume.pdf';
 const Home = () => {
@@ -32,9 +32,9 @@ const Home = () => {
                 </a>
               </div>
               <div className='m-5 m-sm-0'>
-                <a href={resume} download="resume.pdf">
-                  <button className='downloadcv'>downloadcv</button>
-                </a>
+                {/* <a href={resume} download="resume.pdf"> */}
+                  <a href="https://drive.google.com/file/d/1MkuLJzhCPOFSdTKh80JFaMvsXsHheCGS/view" style={{textDecoration:'none'}}><button className='downloadcv'>downloadcv</button></a>
+           
                 <a href='#projects'>
                   <button className='mywork'>mywork</button>
                 </a>
@@ -52,5 +52,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home

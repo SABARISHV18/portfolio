@@ -62,9 +62,9 @@ const About = () => {
                     </div>
                     <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <ul>
-                          <li><strong>CODE CRAFT</strong> event in KEC Codeup'23<br /><h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href={codeup} target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
-                          <li><strong>DESIGN JAM</strong> event in KEC Renaissanace'23<h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href={renaissance} target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
-                          <li><strong>ARCHETYPE</strong>(Project Presentation) event in KEC Cognizance'23<h5 style={{ color: "#f64c08" }}>3RD PRIZE✨ <a href={cognisance} target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
+                          <li><strong>CODE CRAFT</strong> event in KEC Codeup'23<br /><h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href="https://drive.google.com/file/d/1I1vc88ohsCUo9GV0Ej13yuRaD0yNWvT7/view?usp=sharing" target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
+                          <li><strong>DESIGN JAM</strong> event in KEC Renaissanace'23<h5 style={{ color: "#f64c08" }}>1ST PRIZE💪 <a href="https://drive.google.com/file/d/1XqxOTib_z9QOb7043zwWF6tAOHAmfYem/view?usp=sharing" target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
+                          <li><strong>ARCHETYPE</strong>(Project Presentation) event in KEC Cognizance'23<h5 style={{ color: "#f64c08" }}>3RD PRIZE✨ <a href='https://drive.google.com/file/d/1sE6VPsDplcXalWrCWf8sfWcGBFpTYOI4/view?usp=sharing' target='no_blank' style={{fontSize:"15px"}}>View Certificate</a></h5></li>
                    </ul>
                     </div>
                   </div>
