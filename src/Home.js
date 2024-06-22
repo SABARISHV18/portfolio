@@ -33,7 +33,7 @@ const Home = () => {
               </div>
               <div className='m-5 m-sm-0'>
                 {/* <a href={resume} download="resume.pdf"> */}
-                  <a href="https://drive.google.com/file/d/1MkuLJzhCPOFSdTKh80JFaMvsXsHheCGS/view" style={{textDecoration:'none'}}><button className='downloadcv'>downloadcv</button></a>
+                  <a href="https://drive.google.com/file/d/1MkuLJzhCPOFSdTKh80JFaMvsXsHheCGS/view" style={{textDecoration:'none'}}><button className='downloadcv'>Resume</button></a>
            
                 <a href='#projects'>
                   <button className='mywork'>mywork</button>

@@ -10,15 +10,15 @@ const ProjectsData = [
       category: 'Full Stack', 
       image: img1, 
       description: 'Created a user-friendly employee management system with attendance tracking and staff record management capabilities for streamlined workforce organization.',
-      liveDemo: '#',
-      code: '#'
+      liveDemo: 'https://naveen-mathi.vercel.app/',
+      code: 'https://github.com/SABARISHV18/employease'
     },
     { 
       name: 'Resume Builder', 
       category: 'Frontend', 
       image: img2, 
       description: 'A user-friendly resume builder simplifying the process of crafting polished resumes with customizable templates and helpful guidance.',
-      liveDemo: 'https://resumebuilder-123.netlify.app/',
+      liveDemo: 'https://resume-builder1-nine.vercel.app/',
       code: 'https://github.com/SABARISHV18/resumebuilder/tree/master'
     },
     { 

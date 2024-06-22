@@ -25,8 +25,8 @@ const Projects = () => {
             <option value="All">All</option>
             <option value="Full Stack">Full Stack</option>
             <option value="Frontend">Frontend</option>
-            <option value="Figma">Figma</option>
-            <option value="Conole">Conole</option>
+            {/* <option value="Figma">Figma</option>
+            <option value="Conole">Conole</option> */}
           </select>
         </div>
         <br></br>

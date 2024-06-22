@@ -23,8 +23,8 @@ const About = () => {
           <h2 className='text-center'>About <span style={{ color: "#f64c08" }}>me</span></h2>
           <div className='col-12 col-md-6 col-lg-6 aboutImagePart1 mt-4 d-block' data-aos='flip-right'>
             <img src={img1} alt='sabari' style={{ width: "300px", height: "300px", objectFit: "contain", borderRadius: "0%"}} />
-            <a href={resume} download="resume" className='text-decoration-none'><button className='btn download1 mt-5 mb-3 d-flex align-items-center justify-content-center'>downloadcv</button></a>
-          </div>
+            <a href="https://drive.google.com/file/d/1MkuLJzhCPOFSdTKh80JFaMvsXsHheCGS/view" style={{textDecoration:'none'}}><button className='downloadcv'>Resume</button></a>
+            </div>
           <div className='col-12 col-md-6 col-lg-6 aboutTextPart1' data-aos='fade-left'>
             <div>
 
